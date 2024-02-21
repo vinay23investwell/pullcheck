@@ -2,6 +2,10 @@ const express = require('express')
 const app = express()
 const { Sequelize, DataTypes } = require('sequelize');
 
+
+
+console.log("changes made to master")
+
 const sequelize = new Sequelize('project', 'vinay', 'VinayKumar', {
   host: 'localhost',
   dialect: 'mysql', 
